@@ -1,0 +1,241 @@
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box; /* Ésto hace que ajuste los margin a los tamaños de la caja*/
+}
+
+#nav{
+    background-color: #A63E49;
+    width: 100%;
+}
+
+#menu{
+    list-style: none;
+    padding: 0; /* Cuando el valor es 0 no hay que especificar portentaje*/
+    margin: 0 auto;  /* Cuando el valor es 0 no hay que especificar portentaje*/
+    width: 50%;
+    text-align: center;
+    padding: 20px 0;
+}
+
+#menu li{
+    margin: 25px;
+    display: inline;
+    padding: 50px 20px;
+}
+
+#menu li a{
+    text-decoration: none; /* Para quitar la decoración de los enlaces, ya que será menú */
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 100;
+}
+
+#menu li a:hover{ /* Cuando pones el ratón encima */
+    color: darkgray;
+    text-decoration: underline;
+}
+
+video{
+    width: 100%;
+}
+
+h1{
+    font-family: "Rubik Mono One", monospace;
+    font-weight: 400;
+    font-style: normal;
+    font-size: xx-large;
+    text-align: center;
+    text-shadow: 4px 2px 4px rgba(208,73,73,0.6);
+}
+
+p{
+    font-family: "Noto Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings: "wdth" 100;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+#derecha,
+#izquierda{
+    padding: 25px;
+    float: left;
+    text-align: center;
+    width: 45%;
+}
+
+#izquierda p{
+    font-size: 35px;
+}
+
+#derecha img{
+    width: 50%;
+    box-shadow: 10px 10px 5px 0px rgba(89,0,7,0.5);
+}
+
+#izquierda{
+    padding-top: 100px;
+}
+
+footer{
+    clear: both;
+    background-color: #A63E49;
+    color: white;
+    text-decoration: wavy;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+}
+
+footer p{
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+#nav img{
+    width: 2.5%;
+    float: left;
+    padding-left: 22%;
+    padding-top: 0.30%;
+}
+
+#galeria{
+    background-image: url(../img/backgroundSuperman.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    min-height: 100vh; /* Coge el 100 por cien vertical y horizontal de la pantalla para ajustar el tamaño*/
+    overflow-x: hidden;
+}
+
+#galeria h1{
+    color: #A63E49;
+    font-size: 100px;
+}
+
+#galeria div{
+    width: 50%;
+    padding-top: 200px;
+}
+
+#seccion2,
+#seccion3,
+#seccion4{
+    background-color: black;
+    text-align: center;
+    width: 100%;
+    padding-bottom: 80px;
+}
+
+#audio{
+    width: 30%;
+    margin: auto;
+    text-align: center;
+    background-color: aliceblue;
+    padding: 25px;
+    border: 1px solid aliceblue;
+    border-radius: 10px;
+}
+
+#seccion3 div{
+    width: 500px;
+    height: 500px;
+    display: inline-block;
+    background-color: aliceblue;
+    box-shadow: 10px 10px 5px 0px rgba(208,73,73,0.6);
+    margin: 15px;
+}
+
+#seccion3 div img{
+    width: 100%;
+    height: 100%;
+}
+
+#reparto{
+    background-image: url(../img/header-personajes.webp);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    overflow-x: hidden;
+}
+
+#seccion4{
+    clear: both;
+    padding-top: 100px;
+    width: 100%;
+    height: 100vh;
+    display: inline;
+}
+
+#seccion4 div{
+    background-color: black;
+}
+
+#seccion4 div div{
+    width: 700px;
+    height: 700px;
+    display: inline-block;
+    background-color: black;
+    box-shadow: 10px 10px 5px 0px rgba(208,73,73,0.6);
+    margin: 15px;
+    overflow: hidden;
+    color: azure;
+}
+
+#seccion4 div div p{
+    padding: 35px 55px;
+}
+
+#seccion4 div img{
+    width: 100%;
+    height: 100%;
+}
+
+#argumento{
+    background-image: url(../img/main-of-steel.webp);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    overflow-x: hidden;
+}
+
+#seccion5{
+    clear: both;
+    padding-top: 100px;
+    width: 100%;
+    height: 100vh;
+    display: inline;
+}
+
+#seccion5 div{
+    background-color: black;
+    text-align: center;
+}
+
+#seccion5 div div{
+    width: 700px;
+    height: 700px;
+    display: inline-block;
+    background-color: black;
+    box-shadow: 10px 10px 5px 0px rgba(208,73,73,0.6);
+    margin: 25px;
+    overflow: hidden;
+    color: azure;
+}
+
+#seccion5 div div p{
+    padding: 35px 55px;
+}
+
+#seccion5 div img{
+    width: 100%;
+    height: 100%;
+}
+
+#seccion5 h1{
+    background-color: black;
+    padding: 25px;
+    color: azure;
+    margin: auto;
+}
